@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/commodore-64-pixelized');
+body {
+    font-family: 'Commodore 64 Pixelized', sans-serif;
+    background-color: #50459b;
+    color: #887ecb
+}
+
+h1{
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    font-family: 'Commodore 64 Pixelized', sans-serif;
+    position: center;
+    background-color: #50459b;
+    color: #887ecb;
+    border: none;
+    font-size: 32px;
+    caret-color: #887ecb;
+    text-transform: uppercase;
+}
+
+#input{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+#submitButton:hover {
+    color: #000000;
+}
+
+#submitButton {
+    padding: 0;
+    margin:0;
+}
+
